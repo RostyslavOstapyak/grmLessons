@@ -1,15 +1,14 @@
 .horizontal{
     height: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-	align-content: space-around;;
+    justify-content: space-around;
 }
 .vertical{
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+    justify-content: space-around;
     align-items: center;
 }
