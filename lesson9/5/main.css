@@ -42,7 +42,7 @@ main{
 .head{
     display: flex;
     position: relative;
-    top: calc(50% - 150px);
+    top: calc(50vh - 100px);
     background-color: aquamarine;
     height: 200px;
     width: 200px;
