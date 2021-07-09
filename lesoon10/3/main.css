@@ -36,10 +36,16 @@ aside>h2{
     margin: 15px 0;
 }
 .aside__item{
-    margin: 0;
     line-height: 40px;
-    
-    margin-left: 16px;
+}
+section{
+    display: flex;
+}
+section>h2{
+    margin: auto;
+}
+ul>li{
+    list-style: none;
 }
 
 
@@ -47,14 +53,14 @@ aside>h2{
 
 
 
-
-
 footer{
-    text-align: center;
-    position: fixed;
+    display: flex;
     bottom: 0;
     width: 100%;
-    margin: 0 auto;
     height: 40px;
     background-color: green;
+}
+footer>span{
+    
+    margin: auto;
 }
