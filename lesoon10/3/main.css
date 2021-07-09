@@ -44,13 +44,14 @@ section{
 section>h2{
     margin: auto;
 }
-aside>ul{ 
-    padding-left: 30px;
+ul{ 
+    padding-left: 0;
 
 }
 ul>li{
     list-style: none;
     margin: 0;
+    padding-left: 16px;
 }
 
 
