@@ -6,7 +6,7 @@ header>h1{
     padding: 16px;
     background-color: bisque;
     min-width: 300px;
-    flex-grow: 1;
+    flex: 1 0;
 }
 main{
     display: flex;
