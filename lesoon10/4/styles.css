@@ -12,18 +12,18 @@ section{
     flex-direction: row;
 
 }
-.green{
+.block_green{
     background-color: green;
 }
-.red{
+.block_red{
     background-color: red;
 }
-.blue{
+.block_blue{
     background-color: blue;
 }
-.yellow{
+.block_yellow{
     background-color: yellow;
 }
-.black{
+.block_black{
     background-color: black;
 }
