@@ -10,9 +10,6 @@ header{
     display: flex;
     flex-direction: row;
 }
-.nav__item{
-    margin-left: 16px;
-}
 .page{
     display: flex;
     flex-direction: column;
