@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 300px;
+    width: 10%;
+    flex-grow: 1;
+}
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
