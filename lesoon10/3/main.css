@@ -1,0 +1,60 @@
+header{
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.nav{ 
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav__item{
+    margin-right: 16px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+
+}
+section{
+    flex-grow: 1;
+}
+aside{
+    width: 200px;
+    background-color: gray;
+}
+aside>h2{
+    text-align: center;
+    margin: 15px 0;
+}
+.aside__item{
+    margin: 0;
+    line-height: 40px;
+    
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: green;
+}
