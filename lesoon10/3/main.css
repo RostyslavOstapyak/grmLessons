@@ -11,7 +11,7 @@ header{
     flex-direction: row;
 }
 .nav__item{
-    margin-right: 16px;
+    margin-left: 16px;
 }
 .page{
     display: flex;
@@ -44,8 +44,13 @@ section{
 section>h2{
     margin: auto;
 }
+aside>ul{ 
+    padding-left: 30px;
+
+}
 ul>li{
     list-style: none;
+    margin: 0;
 }
 
 
