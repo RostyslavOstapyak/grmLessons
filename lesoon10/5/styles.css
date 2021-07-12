@@ -11,7 +11,7 @@ header>h1{
     background-color: bisque;
 
     flex-basis:300px;
-    min-width: 300px;
+    min-width: 299px;
     flex: 1 0;
 }
 main{
