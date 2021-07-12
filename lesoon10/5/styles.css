@@ -10,8 +10,7 @@ header>h1{
     padding: 16px;
     background-color: bisque;
 
-    
-    min-width: 300px;
+    flex-basis:300px;
     flex: 1 0;
 }
 main{
