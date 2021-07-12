@@ -5,6 +5,12 @@ header > h1 {
   text-align: center;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .article {
   margin: 8px;
   padding: 16px;
@@ -12,9 +18,4 @@ header > h1 {
 
   flex-basis: 300px;
   flex: 1 0;
-}
-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
