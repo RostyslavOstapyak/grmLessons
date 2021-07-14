@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", "sans-serif";
   font-size: 18px;
+  margin: 32px;
 }
 h1 {
   word-spacing: 20px;
@@ -21,4 +22,7 @@ p > span {
 }
 a {
   text-decoration: none;
+}
+em{
+  color: grey;
 }
