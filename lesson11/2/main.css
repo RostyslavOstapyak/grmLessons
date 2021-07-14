@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+}
+div {
+  cursor: all-scroll;
+}
+.articles > div {
+  height: 100px;
+  width: 150px;
+  background-color: beige;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+}
+.visible-text {
+  visibility: visible;
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+}
+.vertical-scroll {
+  overflow: auto;
+}
