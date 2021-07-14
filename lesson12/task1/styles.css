@@ -14,15 +14,15 @@ p {
   line-height: 28px;
 }
 p > span {
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-size: 24px;
-    opacity: 0.8;
-    text-decoration: underline;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
 }
-em{
+em {
   color: grey;
 }
