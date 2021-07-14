@@ -7,6 +7,7 @@ div {
 .articles > div {
   height: 100px;
   width: 150px;
+  margin: 16px;
   background-color: beige;
 }
 .articles {
