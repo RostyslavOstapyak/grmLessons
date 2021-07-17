@@ -1,5 +1,6 @@
 li {
   list-style-type: none;
+  line-height: 30px;
 }
 li {
   font-size: 1.5em;
