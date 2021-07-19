@@ -6,6 +6,6 @@
   height: 100px;
   background-position-x: -200px;
 }
-.sprite:hover {
+.icon:hover {
   background-position-y: -100px;
 }
