@@ -14,7 +14,7 @@
     display: flex;
 }
 figcaption{
-    padding: 15px;
+    line-height: 30px;
 }
 .card{
     text-transform: lowercase;
