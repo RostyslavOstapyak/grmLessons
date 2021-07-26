@@ -7,3 +7,6 @@
   div {
     margin: 8px;
   }
+  input[type='checkbox']{
+      margin-bottom: 5px;
+  }
