@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body{
   height: 100vh;
   display: flex;
   background-color: bisque;
