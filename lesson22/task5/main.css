@@ -74,6 +74,9 @@ footer {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+p{
+  margin-top: 30px;
+}
 .news {
   padding: 0.5em;
   width: 20%;
