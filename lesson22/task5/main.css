@@ -75,7 +75,7 @@ footer {
   text-overflow: ellipsis;
 }
 section>p{
-  margin-top: 30px;
+  margin-top: 1em;
 }
 .news {
   padding: 0.5em;
