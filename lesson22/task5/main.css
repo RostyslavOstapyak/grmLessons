@@ -24,14 +24,12 @@ header {
 }
 ul,
 li {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 .navigation {
   width: 20%;
   padding: 0.5em;
-  margin-top: 16px;
 }
 li {
   background-color: #808080;
