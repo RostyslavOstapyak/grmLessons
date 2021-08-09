@@ -10,7 +10,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 8px;
   background-color: #8a2be2;
 }
 
@@ -20,8 +20,10 @@ body {
   }
 }
 @media (orientation: landscape) {
-    .container{
-        display: flex;
-        flex-direction: row;
-    }
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    margin: 16px;
+  }
 }
