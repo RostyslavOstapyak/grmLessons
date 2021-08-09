@@ -19,14 +19,12 @@ body {
     background-color: #ff7f50;
   }
 }
+
 @media (orientation: landscape) {
   .container {
     display: flex;
     flex-direction: row;
 
   }
-  .square{
-      
-    margin: 16px;
-  }
+
 }
