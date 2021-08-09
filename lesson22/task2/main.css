@@ -43,5 +43,8 @@ span {
         display: flex;
         flex-direction: row;
     }
+    .block{
+        min-width: none;
+    }
     
 }
