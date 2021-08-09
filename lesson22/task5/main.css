@@ -82,7 +82,7 @@ img {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   max-width: 100%;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 599px) {
   .image__small {
     display: none;
   }
@@ -90,7 +90,7 @@ img {
     display: block;
   }
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   .image__small {
     display: block;
   }
