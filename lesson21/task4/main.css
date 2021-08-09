@@ -54,6 +54,8 @@ footer {
 .nav-list {
   padding: 0;
   list-style: none;
+  
+  margin-bottom: 0.5em;
 }
 .nav-list-item {
   display: flex;
@@ -61,7 +63,6 @@ footer {
   background-color: #808080;
   color: #fff;
   height: 2em;
-  margin-bottom: 0.5em;
 }
 .nav-list-link {
   display: block;
