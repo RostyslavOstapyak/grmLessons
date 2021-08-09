@@ -28,3 +28,8 @@ body {
   }
 
 }
+@media (orientation: portrait) {
+    .square{
+        margin: 16px;
+    }
+}
