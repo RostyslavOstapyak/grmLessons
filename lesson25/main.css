@@ -1,19 +1,103 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #141b1c;
-    font-family: 'Montserrat';
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    color: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
+body {
+  background-color: #141b1c;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #334247;
+  max-width: 380px;
+  min-height: 770px;
+  overflow: hidden;
+  margin-left: 18px;
+}
+.price-card__title {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin: 33px auto;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+}
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  min-height: 105px;
+  margin-bottom: 40px;
+}
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0 26px;
+  margin-bottom: 40px;
+}
+.price-card__options {
+  margin-bottom: 39px;
+}
+.price-card__options__item {
+  padding: 16px 21px;
+}
+.price-card__options__item:nth-child(2n-1) {
+  background-color: #2a3438;
+}
+.price-card__options__item > img {
+  margin-right: 22px;
+}
+.button__wraper {
+  display: flex;
+  justify-content: center;
+}
+.price-card__order-button {
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 154px;
+  min-height: 40px;
+  border-radius: 20px;
+  color: white;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+}
+
+.green {
+  background-color: #5bb189;
+}
+.blue {
+  background-color: #3a6ba5;
+}
+.orange {
+  background-color: #ec632a;
+}
+.badge{
+    /*-----------------------------*/
 }
