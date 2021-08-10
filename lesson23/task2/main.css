@@ -6,7 +6,7 @@
   width: 100px;
   height: 100px;
   background-color: #c47;
-  margin: 8px;
+  margin: 16px;
 }
 
 body {
@@ -34,6 +34,13 @@ body {
 @media screen and (min-width: 1200px) {
   .square .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-direction: row;
   }
 }
 
