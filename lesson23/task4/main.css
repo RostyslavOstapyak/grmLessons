@@ -5,9 +5,45 @@
 .block {
   text-transform: lowercase;
   font-family: Verdana;
-  margin: 8px;
+  display: flex;
+  min-height: 200px;
+  flex: 1;
+}
+
+.text {
+  margin: auto;
+  padding: 8px;
   background-color: #faebd7;
-  height: 200px;
+  border-radius: 4px;
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+
+.prodList {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .block {
+    flex-basis: 320px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
