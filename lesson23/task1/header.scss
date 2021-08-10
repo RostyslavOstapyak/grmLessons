@@ -1,24 +1,30 @@
-header{
-    height: $unit*7;
-    background-color: $color-grey;
-    display: flex;
-    align-items: center;
+header {
+  height: $unit * 7;
+  background-color: $color-grey;
+  display: flex;
+  align-items: center;
 }
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-.list__item{
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  &__item {
     border-radius: $border-radius;
-    color: $color-secondary;
+    color: $text-color-secondary;
     padding: $unit;
     margin-left: $unit;
     font-weight: 700;
     cursor: pointer;
     background-color: $color-secondary;
+  }
 }
-.list__item:active{
-    background-color: $color-primary;
+
+.nav-list__item:active {
+  background-color: $color-primary;
 }
-.list__item:hover{
-    opacity: 0.7;
+.nav-list__item:hover {
+  opacity: 0.7;
 }
