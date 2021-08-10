@@ -94,12 +94,7 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
-  .image__small {
-    display: block;
-  }
-  .image__big {
-    display: none;
-  }
+ 
   .main {
     flex-direction: column;
   }
