@@ -27,15 +27,19 @@ body {
     background-color: #a61;
   }
   @include for-big {
-      .square{
-    background-color: #c47;
-      }
+    .square {
+      background-color: #c47;
+    }
+  }
+
+  @include landscape {
+    margin: 8px;
   }
 }
 
-.container{
-    @include landscape{
-        display: flex;
-        flex-direction: row;
-    }
+.container {
+  @include landscape {
+    display: flex;
+    flex-direction: row;
+  }
 }
