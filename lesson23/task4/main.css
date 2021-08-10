@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  text-transform: lowercase;
+  font-family: Verdana;
+  margin: 8px;
+  background-color: #faebd7;
+  height: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */
