@@ -74,9 +74,7 @@ footer {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-section>p{
-  margin-top: 1.5em;
-}
+
 .news {
   padding: 0.5em;
   width: 20%;
