@@ -38,6 +38,9 @@ nav {
 }
 .submenu {
   display: none;
+  position: absolute;
+  top: 3em;
+  left: 8px;
   margin: 0;
   padding: 0;
   background-color: #ff7f50;
